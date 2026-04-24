@@ -1,4 +1,4 @@
-<img width="232" height="50" alt="image" src="https://github.com/user-attachments/assets/12cddc03-d120-4573-9909-25741826df40" />
+<img width="286" height="52" alt="image" src="https://github.com/user-attachments/assets/cec1170b-a2f1-4787-92eb-a3183b6a166a" />
 
 # Saunday
 
