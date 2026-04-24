@@ -3,6 +3,7 @@ import SwiftUI
 struct MenuBarView: View {
     @Environment(VisualizerViewModel.self) var viewModel
     private let barCount = 20
+    @State private var rippleTrigger: Int = 0
 
     var body: some View {
         HStack(spacing: 6) {
@@ -37,9 +38,15 @@ struct MenuBarView: View {
                 Color.black.opacity(0.8)
             }
         }
+        .overlay {
+            SongChangeGlowView(trigger: rippleTrigger)
+        }
         .clipShape(Capsule())
         .fixedSize()
         .animation(.easeInOut(duration: 0.5), value: viewModel.meshPalette.count > 0)
+        .onChange(of: viewModel.artwork) {
+            rippleTrigger += 1
+        }
     }
 
     private func interpolated(bar i: Int, total: Int) -> Float {
@@ -51,6 +58,28 @@ struct MenuBarView: View {
         let hi  = min(lo + 1, n - 1)
         let t   = pos - Float(lo)
         return bands[lo] * (1 - t) + bands[hi] * t
+    }
+}
+
+private struct SongChangeGlowView: View {
+    let trigger: Int
+    @State private var opacity: Double = 0
+
+    var body: some View {
+        Color.white
+            .opacity(opacity)
+            .blendMode(.plusLighter)
+            .allowsHitTesting(false)
+            .onChange(of: trigger) {
+                guard trigger > 0 else { return }
+                opacity = 0
+                withAnimation(.easeIn(duration: 0.15)) {
+                    opacity = 0.55
+                }
+                withAnimation(.easeOut(duration: 1.1).delay(0.15)) {
+                    opacity = 0
+                }
+            }
     }
 }
 
