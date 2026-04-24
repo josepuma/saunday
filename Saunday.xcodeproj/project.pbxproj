@@ -12,37 +12,37 @@
 			containerPortal = 59C636702F9AE6050011E41E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 59C636772F9AE6050011E41E;
-			remoteInfo = macapp;
+			remoteInfo = Saunday;
 		};
 		59C636902F9AE6070011E41E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 59C636702F9AE6050011E41E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 59C636772F9AE6050011E41E;
-			remoteInfo = macapp;
+			remoteInfo = Saunday;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		59C636782F9AE6050011E41E /* macapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		59C636852F9AE6070011E41E /* macappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		59C6368F2F9AE6070011E41E /* macappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59C636782F9AE6050011E41E /* Saunday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Saunday.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59C636852F9AE6070011E41E /* SaundayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaundayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59C6368F2F9AE6070011E41E /* SaundayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaundayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		59C6367A2F9AE6050011E41E /* macapp */ = {
+		59C6367A2F9AE6050011E41E /* Saunday */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = macapp;
+			path = Saunday;
 			sourceTree = "<group>";
 		};
-		59C636882F9AE6070011E41E /* macappTests */ = {
+		59C636882F9AE6070011E41E /* SaundayTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = macappTests;
+			path = SaundayTests;
 			sourceTree = "<group>";
 		};
-		59C636922F9AE6070011E41E /* macappUITests */ = {
+		59C636922F9AE6070011E41E /* SaundayUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = macappUITests;
+			path = SaundayUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		59C6366F2F9AE6050011E41E = {
 			isa = PBXGroup;
 			children = (
-				59C6367A2F9AE6050011E41E /* macapp */,
-				59C636882F9AE6070011E41E /* macappTests */,
-				59C636922F9AE6070011E41E /* macappUITests */,
+				59C6367A2F9AE6050011E41E /* Saunday */,
+				59C636882F9AE6070011E41E /* SaundayTests */,
+				59C636922F9AE6070011E41E /* SaundayUITests */,
 				59C636792F9AE6050011E41E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		59C636792F9AE6050011E41E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				59C636782F9AE6050011E41E /* macapp.app */,
-				59C636852F9AE6070011E41E /* macappTests.xctest */,
-				59C6368F2F9AE6070011E41E /* macappUITests.xctest */,
+				59C636782F9AE6050011E41E /* Saunday.app */,
+				59C636852F9AE6070011E41E /* SaundayTests.xctest */,
+				59C6368F2F9AE6070011E41E /* SaundayUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		59C636772F9AE6050011E41E /* macapp */ = {
+		59C636772F9AE6050011E41E /* Saunday */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 59C636992F9AE6070011E41E /* Build configuration list for PBXNativeTarget "macapp" */;
+			buildConfigurationList = 59C636992F9AE6070011E41E /* Build configuration list for PBXNativeTarget "Saunday" */;
 			buildPhases = (
 				59C636742F9AE6050011E41E /* Sources */,
 				59C636752F9AE6050011E41E /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				59C6367A2F9AE6050011E41E /* macapp */,
+				59C6367A2F9AE6050011E41E /* Saunday */,
 			);
-			name = macapp;
+			name = Saunday;
 			packageProductDependencies = (
 			);
-			productName = macapp;
-			productReference = 59C636782F9AE6050011E41E /* macapp.app */;
+			productName = Saunday;
+			productReference = 59C636782F9AE6050011E41E /* Saunday.app */;
 			productType = "com.apple.product-type.application";
 		};
-		59C636842F9AE6070011E41E /* macappTests */ = {
+		59C636842F9AE6070011E41E /* SaundayTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 59C6369C2F9AE6070011E41E /* Build configuration list for PBXNativeTarget "macappTests" */;
+			buildConfigurationList = 59C6369C2F9AE6070011E41E /* Build configuration list for PBXNativeTarget "SaundayTests" */;
 			buildPhases = (
 				59C636812F9AE6070011E41E /* Sources */,
 				59C636822F9AE6070011E41E /* Frameworks */,
@@ -131,18 +131,18 @@
 				59C636872F9AE6070011E41E /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				59C636882F9AE6070011E41E /* macappTests */,
+				59C636882F9AE6070011E41E /* SaundayTests */,
 			);
-			name = macappTests;
+			name = SaundayTests;
 			packageProductDependencies = (
 			);
-			productName = macappTests;
-			productReference = 59C636852F9AE6070011E41E /* macappTests.xctest */;
+			productName = SaundayTests;
+			productReference = 59C636852F9AE6070011E41E /* SaundayTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		59C6368E2F9AE6070011E41E /* macappUITests */ = {
+		59C6368E2F9AE6070011E41E /* SaundayUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 59C6369F2F9AE6070011E41E /* Build configuration list for PBXNativeTarget "macappUITests" */;
+			buildConfigurationList = 59C6369F2F9AE6070011E41E /* Build configuration list for PBXNativeTarget "SaundayUITests" */;
 			buildPhases = (
 				59C6368B2F9AE6070011E41E /* Sources */,
 				59C6368C2F9AE6070011E41E /* Frameworks */,
@@ -154,13 +154,13 @@
 				59C636912F9AE6070011E41E /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				59C636922F9AE6070011E41E /* macappUITests */,
+				59C636922F9AE6070011E41E /* SaundayUITests */,
 			);
-			name = macappUITests;
+			name = SaundayUITests;
 			packageProductDependencies = (
 			);
-			productName = macappUITests;
-			productReference = 59C6368F2F9AE6070011E41E /* macappUITests.xctest */;
+			productName = SaundayUITests;
+			productReference = 59C6368F2F9AE6070011E41E /* SaundayUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 59C636732F9AE6050011E41E /* Build configuration list for PBXProject "macapp" */;
+			buildConfigurationList = 59C636732F9AE6050011E41E /* Build configuration list for PBXProject "Saunday" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				59C636772F9AE6050011E41E /* macapp */,
-				59C636842F9AE6070011E41E /* macappTests */,
-				59C6368E2F9AE6070011E41E /* macappUITests */,
+				59C636772F9AE6050011E41E /* Saunday */,
+				59C636842F9AE6070011E41E /* SaundayTests */,
+				59C6368E2F9AE6070011E41E /* SaundayUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		59C636872F9AE6070011E41E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 59C636772F9AE6050011E41E /* macapp */;
+			target = 59C636772F9AE6050011E41E /* Saunday */;
 			targetProxy = 59C636862F9AE6070011E41E /* PBXContainerItemProxy */;
 		};
 		59C636912F9AE6070011E41E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 59C636772F9AE6050011E41E /* macapp */;
+			target = 59C636772F9AE6050011E41E /* Saunday */;
 			targetProxy = 59C636902F9AE6070011E41E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -394,24 +394,40 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				AUTOMATION_APPLE_EVENTS = YES;
+				CODE_SIGN_ENTITLEMENTS = Saunday/Saunday.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QKH3GHQ7MS;
-				ENABLE_APP_SANDBOX = YES;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "Necesito comunicarme con la app de Música para mostrar el título y el artwork en la barra de menús";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSScreenCaptureUsageDescription = "Esta app captura el audio del sistema para mostrar un visualizador en tiempo real.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cl.sayrin.macapp;
+				PRODUCT_BUNDLE_IDENTIFIER = cl.sayrin.saunday;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = YES;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = YES;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
@@ -426,24 +442,40 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				AUTOMATION_APPLE_EVENTS = YES;
+				CODE_SIGN_ENTITLEMENTS = Saunday/Saunday.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QKH3GHQ7MS;
-				ENABLE_APP_SANDBOX = YES;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "Necesito comunicarme con la app de Música para mostrar el título y el artwork en la barra de menús";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSScreenCaptureUsageDescription = "Esta app captura el audio del sistema para mostrar un visualizador en tiempo real.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cl.sayrin.macapp;
+				PRODUCT_BUNDLE_IDENTIFIER = cl.sayrin.saunday;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = YES;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = YES;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
@@ -463,14 +495,14 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cl.sayrin.macappTests;
+				PRODUCT_BUNDLE_IDENTIFIER = cl.sayrin.saunday.tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/macapp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Saunday.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Saunday";
 			};
 			name = Debug;
 		};
@@ -484,14 +516,14 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cl.sayrin.macappTests;
+				PRODUCT_BUNDLE_IDENTIFIER = cl.sayrin.saunday.tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/macapp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Saunday.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Saunday";
 			};
 			name = Release;
 		};
@@ -503,14 +535,14 @@
 				DEVELOPMENT_TEAM = QKH3GHQ7MS;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cl.sayrin.macappUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = cl.sayrin.saunday.uitests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = macapp;
+				TEST_TARGET_NAME = Saunday;
 			};
 			name = Debug;
 		};
@@ -522,21 +554,21 @@
 				DEVELOPMENT_TEAM = QKH3GHQ7MS;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cl.sayrin.macappUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = cl.sayrin.saunday.uitests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = macapp;
+				TEST_TARGET_NAME = Saunday;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		59C636732F9AE6050011E41E /* Build configuration list for PBXProject "macapp" */ = {
+		59C636732F9AE6050011E41E /* Build configuration list for PBXProject "Saunday" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				59C636972F9AE6070011E41E /* Debug */,
@@ -545,7 +577,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		59C636992F9AE6070011E41E /* Build configuration list for PBXNativeTarget "macapp" */ = {
+		59C636992F9AE6070011E41E /* Build configuration list for PBXNativeTarget "Saunday" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				59C6369A2F9AE6070011E41E /* Debug */,
@@ -554,7 +586,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		59C6369C2F9AE6070011E41E /* Build configuration list for PBXNativeTarget "macappTests" */ = {
+		59C6369C2F9AE6070011E41E /* Build configuration list for PBXNativeTarget "SaundayTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				59C6369D2F9AE6070011E41E /* Debug */,
@@ -563,7 +595,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		59C6369F2F9AE6070011E41E /* Build configuration list for PBXNativeTarget "macappUITests" */ = {
+		59C6369F2F9AE6070011E41E /* Build configuration list for PBXNativeTarget "SaundayUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				59C636A02F9AE6070011E41E /* Debug */,

@@ -6,9 +6,9 @@
 //
 
 import Testing
-@testable import macapp
+@testable import Saunday
 
-struct macappTests {
+struct SaundayTests {
 
     @Test func example() async throws {
         // Write your test here and use APIs like `#expect(...)` to check expected conditions.
