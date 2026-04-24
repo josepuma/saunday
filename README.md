@@ -2,7 +2,7 @@
 
 # Saunday
 
-A macOS menu bar audio visualizer. It captures system audio in real time, runs an FFT analysis, and renders animated bars directly in the menu bar. When music is playing in Music.app, it also shows the current album artwork.
+A macOS menu bar audio visualizer. It captures system audio in real time, runs an FFT analysis, and renders animated bars directly in the menu bar. When music is playing in Apple Music, it also shows the current album artwork.
 
 ## Requirements
 
