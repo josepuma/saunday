@@ -5,6 +5,8 @@ import Observation
 final class NowPlayingManager {
     var artwork: NSImage?
     var title: String?
+    var accentNSColor: NSColor?
+    var paletteNSColors: [NSColor] = []
     
     init() {
         setupObservers()
@@ -59,10 +61,15 @@ final class NowPlayingManager {
                 
                 if rawData.count > 100 {
                     if let image = NSImage(data: rawData) {
-                        DispatchQueue.main.async {
-                            withAnimation(.easeInOut(duration: 0.5)) {
-                                self.title = songTitle
-                                self.artwork = image
+                        DispatchQueue.global(qos: .userInitiated).async {
+                            let palette = ColorExtractor.extractPalette(from: image, count: 4)
+                            DispatchQueue.main.async {
+                                withAnimation(.easeInOut(duration: 0.5)) {
+                                    self.title = songTitle
+                                    self.artwork = image
+                                    self.accentNSColor = palette.first
+                                    self.paletteNSColors = palette
+                                }
                             }
                         }
                         return // Salimos con éxito
@@ -74,6 +81,8 @@ final class NowPlayingManager {
             DispatchQueue.main.async {
                 self.title = songTitle
                 self.artwork = nil
+                self.accentNSColor = nil
+                self.paletteNSColors = []
             }
         }
     }
