@@ -9,6 +9,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         let viewModel = VisualizerViewModel(audio: audio, nowPlaying: nowPlaying)
         menuBarController = MenuBarController(viewModel: viewModel)
         menuBarController?.setup()
+        menuBarController?.configureDynamicIsland(DynamicIslandController(viewModel: viewModel))
 
         Task {
             await audio.checkCurrentPermission()
