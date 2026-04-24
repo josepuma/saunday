@@ -56,6 +56,13 @@ jobs:
           APP=$(find build/DerivedData -name "Saunday.app" -maxdepth 6 | head -1)
           echo "path=$APP" >> "$GITHUB_OUTPUT"
 
+      - name: Ad-hoc sign with entitlements
+        run: |
+          codesign --force --deep --sign - \
+            --entitlements Saunday/Saunday.entitlements \
+            --options runtime \
+            "${{ steps.app_path.outputs.path }}"
+
       - name: Install create-dmg
         run: brew install create-dmg
 
